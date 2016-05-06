@@ -1,0 +1,128 @@
+annotation.processing.enabled=true
+annotation.processing.enabled.in.editor=false
+annotation.processing.processors.list=
+annotation.processing.run.all.processors=true
+annotation.processing.source.output=${build.generated.sources.dir}/ap-source-output
+application.title=DirectoryCellService
+application.vendor=Enuma
+build.classes.dir=${build.dir}/classes
+build.classes.excludes=**/*.java,**/*.form
+# This directory is removed when the project is cleaned:
+build.dir=build
+build.generated.dir=${build.dir}/generated
+build.generated.sources.dir=${build.dir}/generated-sources
+# Only compile against the classpath explicitly listed here:
+build.sysclasspath=ignore
+build.test.classes.dir=${build.dir}/test/classes
+build.test.results.dir=${build.dir}/test/results
+# Uncomment to specify the preferred debugger connection transport:
+#debug.transport=dt_socket
+debug.classpath=\
+    ${run.classpath}
+debug.test.classpath=\
+    ${run.test.classpath}
+# Files in build.classes.dir which should be excluded from distribution jar
+dist.archive.excludes=
+# This directory is removed when the project is cleaned:
+dist.dir=dist
+dist.jar=${dist.dir}/DirectoryCellService.jar
+dist.javadoc.dir=${dist.dir}/javadoc
+endorsed.classpath=
+excludes=
+file.reference.commons-codec-1.6.jar=..\\Project_Resources\\Libraries\\Jena\\commons-codec-1.6.jar
+file.reference.commons-lang3-3.3.2.jar=..\\Project_Resources\\Libraries\\Jena\\commons-lang3-3.3.2.jar
+file.reference.eclipselink.jar=../Project_Resources/Libraries/eclipselink.jar
+file.reference.jackson-annotations-2.7.3.jar=/home/henrique/Dropbox/Meus Projetos/SOARF/Project_Resources/Libraries/jackson-annotations-2.7.3.jar
+file.reference.jackson-core-2.7.3.jar=/home/henrique/Dropbox/Meus Projetos/SOARF/Project_Resources/Libraries/jackson-core-2.7.3.jar
+file.reference.jackson-databind-2.7.3.jar=/home/henrique/Dropbox/Meus Projetos/SOARF/Project_Resources/Libraries/jackson-databind-2.7.3.jar
+file.reference.javax.persistence_2.1.1.v201509150925.jar=../Project_Resources/Libraries/javax.persistence_2.1.1.v201509150925.jar
+file.reference.jena-arq-2.13.0.jar=..\\Project_Resources\\Libraries\\Jena\\jena-arq-2.13.0.jar
+file.reference.jena-core-2.13.0.jar=..\\Project_Resources\\Libraries\\Jena\\jena-core-2.13.0.jar
+file.reference.jena-iri-1.1.2.jar=..\\Project_Resources\\Libraries\\Jena\\jena-iri-1.1.2.jar
+file.reference.jena-tdb-1.1.2.jar=..\\Project_Resources\\Libraries\\Jena\\jena-tdb-1.1.2.jar
+file.reference.log4j-1.2.17.jar=..\\Project_Resources\\Libraries\\Jena\\log4j-1.2.17.jar
+file.reference.org.eclipse.persistence.jpa.modelgen.source_2.6.2.v20151217-774c696.jar=../Project_Resources/Libraries/org.eclipse.persistence.jpa.modelgen.source_2.6.2.v20151217-774c696.jar
+file.reference.org.eclipse.persistence.jpa.modelgen_2.6.2.v20151217-774c696.jar=../Project_Resources/Libraries/org.eclipse.persistence.jpa.modelgen_2.6.2.v20151217-774c696.jar
+file.reference.org.eclipse.persistence.jpars_2.6.2.v20151217-774c696.jar=/home/henrique/Dropbox/Meus Projetos/SOARF/Project_Resources/Libraries/org.eclipse.persistence.jpars_2.6.2.v20151217-774c696.jar
+file.reference.postgresql-9.4.1208.jar=../Project_Resources/Libraries/postgresql-9.4.1208.jar
+file.reference.slf4j-api-1.7.6.jar=..\\Project_Resources\\Libraries\\Jena\\slf4j-api-1.7.6.jar
+file.reference.slf4j-log4j12-1.7.6.jar=..\\Project_Resources\\Libraries\\Jena\\slf4j-log4j12-1.7.6.jar
+file.reference.xercesImpl-2.11.0.jar=..\\Project_Resources\\Libraries\\Jena\\xercesImpl-2.11.0.jar
+file.reference.xml-apis-1.4.01.jar=..\\Project_Resources\\Libraries\\Jena\\xml-apis-1.4.01.jar
+includes=**
+jar.compress=false
+javac.classpath=\
+    ${reference.SOARFCore.jar}:\
+    ${reference.RACSModel.jar}:\
+    ${reference.SOARFServices.jar}:\
+    ${file.reference.log4j-1.2.17.jar}:\
+    ${file.reference.commons-codec-1.6.jar}:\
+    ${file.reference.jena-arq-2.13.0.jar}:\
+    ${file.reference.jena-core-2.13.0.jar}:\
+    ${file.reference.jena-iri-1.1.2.jar}:\
+    ${file.reference.jena-tdb-1.1.2.jar}:\
+    ${file.reference.slf4j-api-1.7.6.jar}:\
+    ${file.reference.slf4j-log4j12-1.7.6.jar}:\
+    ${file.reference.xercesImpl-2.11.0.jar}:\
+    ${file.reference.xml-apis-1.4.01.jar}:\
+    ${reference.SOARFAgents.jar}:\
+    ${file.reference.commons-lang3-3.3.2.jar}:\
+    ${file.reference.jackson-annotations-2.7.3.jar}:\
+    ${file.reference.jackson-core-2.7.3.jar}:\
+    ${file.reference.jackson-databind-2.7.3.jar}:\
+    ${file.reference.postgresql-9.4.1208.jar}:\
+    ${file.reference.eclipselink.jar}:\
+    ${file.reference.javax.persistence_2.1.1.v201509150925.jar}:\
+    ${file.reference.org.eclipse.persistence.jpa.modelgen.source_2.6.2.v20151217-774c696.jar}:\
+    ${file.reference.org.eclipse.persistence.jpa.modelgen_2.6.2.v20151217-774c696.jar}:\
+    ${file.reference.org.eclipse.persistence.jpars_2.6.2.v20151217-774c696.jar}
+# Space-separated list of extra javac options
+javac.compilerargs=
+javac.deprecation=false
+javac.processorpath=\
+    ${javac.classpath}
+javac.source=1.8
+javac.target=1.8
+javac.test.classpath=\
+    ${javac.classpath}:\
+    ${build.classes.dir}
+javac.test.processorpath=\
+    ${javac.test.classpath}
+javadoc.additionalparam=
+javadoc.author=false
+javadoc.encoding=${source.encoding}
+javadoc.noindex=false
+javadoc.nonavbar=false
+javadoc.notree=false
+javadoc.private=false
+javadoc.splitindex=true
+javadoc.use=true
+javadoc.version=false
+javadoc.windowtitle=
+main.class=br.edu.ocdrf.directory.ws.DirectoryServiceMain
+manifest.file=manifest.mf
+meta.inf.dir=${src.dir}/META-INF
+mkdist.disabled=false
+platform.active=default_platform
+project.license=cddl-netbeans-sun
+project.RACSModel=../RACSModel
+project.SOARFAgents=../SOARFAgents
+project.SOARFCore=../SOARFCore
+project.SOARFServices=../SOARFServices
+reference.RACSModel.jar=${project.RACSModel}/dist/RACSModel.jar
+reference.SOARFAgents.jar=${project.SOARFAgents}/dist/SOARFAgents.jar
+reference.SOARFCore.jar=${project.SOARFCore}/dist/SOARFCore.jar
+reference.SOARFServices.jar=${project.SOARFServices}/dist/SOARFServices.jar
+run.classpath=\
+    ${javac.classpath}:\
+    ${build.classes.dir}
+# Space-separated list of JVM arguments used when running the project.
+# You may also define separate properties like run-sys-prop.name=value instead of -Dname=value.
+# To set system properties for unit tests define test-sys-prop.name=value:
+run.jvmargs=
+run.test.classpath=\
+    ${javac.test.classpath}:\
+    ${build.test.classes.dir}
+source.encoding=UTF-8
+src.dir=src
+test.src.dir=test
